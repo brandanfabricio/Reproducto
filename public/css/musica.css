@@ -1,0 +1,24 @@
+
+.play{
+    width: 40px;
+    height: 40px;
+}
+.musica{
+    visibility: hidden;
+}
+.botones{
+    display: flex;
+     
+}
+
+
+.mas{
+    margin-left: 300px;
+
+}
+.menu-musica{
+    margin-top: -10px;
+}
+.mas-musica{
+    margin-left: 20px;
+}

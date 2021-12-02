@@ -1,0 +1,59 @@
+body{
+
+    background-image: linear-gradient(to right, #42b3c8, #0034ff, #a642f5);
+
+
+}
+
+.contenedor{
+    border-radius: 9px;
+box-shadow:  10px 10px 26px hsl(0, 0%, 23%),
+             -10px -10px 26px #443b3b;
+             display: flex;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+
+.contenedor{
+    
+    width: 450px;
+    height: 500px;
+}
+
+.base{
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.logo{
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    border: #0034ff solid px;
+    border-radius: 50%;
+    
+}
+.logo-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.icon-lista{
+    margin-bottom: -40px;
+    width: 40px;
+}
+.icon-lista:hover{
+    cursor: pointer;
+    
+}

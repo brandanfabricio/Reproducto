@@ -6,28 +6,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reproductor</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/modal.css">
+   <link rel="stylesheet" href="./css/musica.css">
+   <link rel="stylesheet" href="./css/agregar.css">
 </head>
 
 <body>
-        <h1>Reproductor de musica</h1>
-        
 
+    <div class="ver" id="modal">
+        <div id="lista-musica"></div>
+    
+    </div>
 
-            <div id="lista-musica"></div>
-            <br>
-        <br>
-        <br>
-
-        <audio id="audio" controls></audio>
-
+        <div class="ver-mas">
 
             <form class="cargar" method="POST" action="/" enctype="multipart/form-data" id="form">
-                Subir cancion:
-                <input type="file" name="archivo" >
-                <input type="submit" value="Subir" id="subir">
+            
+                <input type="file" name="archivo"  id="elegir" class="elegir"> <br><br>
+                <input type="submit" value="Subir" id="subir" class="subir">
             
             
             </form>
+
+        </div>
+
+
+
+            <div class="contenedor">
+                
+
+                <div class="base">
+                    
+
+                    <div class="botones">
+                        <div class="agregar">
+                            <div class="mas-musica">
+                                <img src="./img/mas.png" class="icon-mas" id="agregar-musica">
+                            </div>
+                        </div>  
+  
+  
+                      <div class="menu-musica">
+                          <div class="mas">
+                              <img src="./img/2x/round_list_black_24dp.png" alt="icon" class="icon-lista">
+  
+                          </div>
+  
+                      </div>
+
+                    </div>
+                    
+
+
+
+                <div class="logo">
+
+                    <img src="./img/logo1.jpg" alt="fondo" class="logo-img">
+
+                </div>
+        
+
+
+          
+                <p id="p-cancion" ></p>
+
+                
+
+                    <div class="btn-musica" id="play">
+                        <img src="./img/play.png" class="play" >
+                      
+                    </div>
+              
+
+              
+            <audio id="audio" controls class="musica">
+            </audio>
+                
+    
+               
+                </div>
+
+
+            </div>
+       
+
+
+
+
+
 
         <template id="temple">
             <div>
